@@ -1,0 +1,8 @@
+total 56
+-rw-r--r--@ 1 rupok  staff    76 Oct 16 23:53 error.log
+-rw-r--r--@ 1 rupok  staff  1538 Oct 15 23:51 exercise1.sh
+-rw-r--r--@ 1 rupok  staff   880 Oct 16 00:51 exercise2.sh
+-rw-r--r--@ 1 rupok  staff  1410 Oct 16 23:52 exercise3.sh
+-rw-r--r--@ 1 rupok  staff   354 Oct 16 23:51 output.txt
+-rw-r--r--@ 1 rupok  staff    79 Oct 16 23:53 test.txt
+-rw-r--r--@ 1 rupok  staff    79 Oct 16 23:53 test1.txt

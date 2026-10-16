@@ -1,0 +1,7 @@
+error.log
+exercise1.sh
+exercise2.sh
+exercise3.sh
+output.txt
+test.txt
+test1.txt
