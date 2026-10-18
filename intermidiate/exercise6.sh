@@ -1,3 +1,4 @@
+#!/bin/bash
 # Bash script to print "Hello, World!"
 echo "Hello, World!"
 #make this application run on the terminal with a command
