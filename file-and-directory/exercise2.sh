@@ -55,3 +55,69 @@ if [ -f "old_error.log" ];then
 else
   echo "the source file does not exists"   
 fi
+
+#Bash script that copies all files with the ".txt" extension from one directory to another.
+
+#source directory
+source_dir="file-and-directory"
+#Destination directory
+destination_dir="workarea"
+
+#Create a destination directory if it does not exist
+mkdir workarea
+
+#copy .sh files from source to destination directory
+cp "$source_dir"/*.sh "$destination_dir"
+
+ #check if the file copied successfully
+ if [ $? -eq 0 ]; then
+    echo "The files successfully copied to destination directory"
+  else 
+    echo "The files did not copy"
+  fi  
+
+#Bash script that moves multiple directories named "dir1", "dir2", and "dir3" to a new location named "new_dir".
+
+# Move directories to a new location
+#mv dir_1 dir_2 dir_3 new_dir/
+
+S
+
+#Bash script that deletes all files with names starting with "error" in the current directory.
+
+
+
+# Delete files starting with "error_"
+rm error*
+
+#Bash script that copies all files and subdirectories from one directory to another, preserving the directory structure.
+
+# Source directory
+source_dir="/path/to/source_directory"
+
+# Destination directory
+destination_dir="/path/to/destination_directory"
+
+# Copy files and subdirectories from source to destination preserving structure
+cp -R "$source_dir"/* "$destination_dir"
+
+
+
+
+#Write a Bash script that creates a directory hierarchy with the following structure:
+
+#parent_directory
+
+#|- workarea
+#|   |- subworkarea1
+#|   |- subworkarea2
+#|- workarea2
+
+# Create parent directory
+mkdir parent_directory
+
+# Create subdirectories within parent_directory
+mkdir parent_directory/workarea
+mkdir parent_directory/workarea/subworkarea1
+mkdir parent_directory/workarea/subworkarea2
+mkdir parent_directory/workarea2
